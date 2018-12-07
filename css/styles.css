@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+h1, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  margin-top: 8px;
+}
+
+header, footer, nav, section, div {
+  box-sizing: border-box;
+}
+
+main {
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p, h3 {
+  text-align: center;
+}
+
+.app-first, .app-second {
+  margin-bottom: 10px;
+}
+
+.app-image {
+  max-width: 100%;
+}
+
+.apps-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  padding: 20px;
+  background-color: #6d95a2;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.featured-work-text {
+  text-align: center;
+}
+
+.footer-container {
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #6d95a2;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header-hr {
+  border: 0px;
+  border-bottom-width: 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #6d95a2;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-right: 1em;
+}
+
+.logo-container {
+  align-self: center;
+}
+
+.main-image {
+  max-width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}

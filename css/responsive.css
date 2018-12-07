@@ -1,0 +1,54 @@
+@media screen and (min-width: 479px) {
+  h4 {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .app-first, .app-second {
+    width: 40%;
+    padding: 0.5em;
+  }
+
+  .app-first {
+  }
+
+  .header-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid #6d95a2;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.26);
+  }
+}
+
+@media screen and (min-width: 850px) {
+  main, .header {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app-first {
+    width: 33%;
+    padding: 0px 20px 0px 0px;
+  }
+
+  .app-second {
+    width: 33%;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .app-third {
+    width: 33%;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .apps-section {
+    justify-content: space-between;
+  }
+
+  .featured-work-text {
+    text-align: left;
+  }
+
+}
